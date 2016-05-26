@@ -1,0 +1,674 @@
+/*
+        Styles for all of the search pages
+*/
+
+
+/***************    BEGIN FACET STYLES    ***************/
+    .curFacet {
+        font-style: italic;
+    }
+
+    .facetNumber {
+        font-size: .8em;
+    }
+
+    #nomenFacet ul {
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    #originFacet ul {
+        list-style: none;
+        padding-left: 5px;
+    }
+
+    .hiddenFacet {
+        display: none;
+    }
+
+    .retractTerm {
+        font-size: .7em;
+        vertical-align: super;
+    }
+
+    .more, .less {
+        font-size: .9em;
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0033CC;
+    }
+
+    #leftSidebarOuter {
+        padding: 10px;
+       /* margin: 10px;*/
+        margin-left: -10px;
+        width: 270px;
+        position: relative;
+        float: left;
+    }
+
+    #leftSidebar {
+        border: 1px solid #666;
+        padding-left: 5px;
+		padding-top:0px;
+		padding-bottom:0px;
+    }
+
+    .GeoJ label {
+        width:5em;
+    }
+/***************    END FACET STYLES    ***************/
+
+
+/***************    BEGIN GRID VIEW STYLES    ***************/
+    #gridCont {
+        margin-left: 275px;
+    }
+
+    .artWrapper {
+        margin: 1px;
+        border: 1px solid #524d58;
+        background-color: #9E98A5;
+        width: 137px;
+        height: 137px;
+        float: left;
+       	-webkit-border-radius: 3px;
+      	border-radius: 3px;
+ }
+
+    .artWrapper:hover {
+        border: 1px dotted #524d58;
+    }
+
+    .artCont {
+		width: 135px;
+		height:135px;
+        overflow: hidden;
+        background-color: #9E98A5;
+        position: relative;
+    }
+
+    .artImage {
+        position: relative;
+    }
+/***************    END GRID VIEW STYLES    ***************/
+
+
+/***************    BEGIN LIST VIEW STYLES    ***************/
+    .records {
+        border-top: medium;
+        border-color: #666666;
+        border-top-style: solid;
+        padding: 1em;
+        min-height: 140px;
+    }
+
+    .records img {
+        border: thin solid #000000;
+    }
+
+    .artifactbadges {
+        text-align: right;
+        float: right;
+    }
+/***************    END LIST VIEW STYLES    ***************/
+
+
+/***************    BEGIN NAVIGATION STYLES    ***************/
+	#toggleAdv {
+        text-decoration: none;
+    }
+
+    #pageSelect {
+        padding-top: 0.75em;
+        padding-bottom: 0.6125em;
+    }
+
+    #sortSelect {
+        float: right;
+        padding-left: 35px;
+    }
+
+    #sortSelect span, #viewSelect span {
+        position: relative;
+        display: block;
+        top: 6px;
+        float: left;
+    }
+
+    #viewSelect {
+        float: right;
+        padding-left: 35px;
+    }
+
+    #examples {
+		clear: both;
+        width: 90%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+		margin-bottom: 10px;
+        text-align: left;
+		border: 1px solid #CCC;
+		background-color:#F5F5F5;
+       	-webkit-border-radius: 3px;
+      	border-radius: 3px;
+   }
+
+    #searchHelp {
+        padding-left: 10px;
+    }
+
+    #searchTop {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #examples li {
+    	font-size: .8em;
+	}
+
+    #selectGallery {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+	#advancedSearch {
+		width:90%;
+		text-align:center;
+		margin:0 auto;
+    	line-height: 1;
+	}
+	#OptionsCol1 {
+		float:left;
+		width:50%;
+		padding-right:5px;
+	}
+	#OptionsCol2 {
+		float:right;
+		width:50%;
+		padding-left:5px;
+}
+    #pageEnumeration, h2 {
+        clear: both;
+    }
+
+    #location {
+        border: 1px solid #eee;
+        margin: 5px;
+        width: 100%;
+    }
+
+    #other {
+        border: 1px solid #eee;
+        margin: 5px;
+        width: 100%;
+    }
+
+    #nomenclature {
+        border: 1px solid #eee;
+        margin: 5px;
+        width: 100%;
+    }
+
+    #basicinfo {
+        border: 1px solid #eee;
+        margin: 5px;
+        width: 100%;
+    }
+
+    #bottomPagination {
+        text-align: center;
+    }
+
+    #clearSearch {
+        font-size: 0.9em;
+    }
+
+    #searchTimer {
+        font-size: .8em;
+    }
+
+    #retTop.normal {
+        margin-right: auto;
+        margin-left: auto;
+        width: 10%;
+        text-align: center;
+    }
+
+    #retTop.sticky {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background-color: #EEE;
+        padding: 5px;
+        z-index: 100;
+        margin-left: -10px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        opacity: 0.8;
+    }
+
+    .AddlDetailsJ label {
+        width:7em;
+    }
+
+    #SM_result_controls .button-group {
+        margin-left:15px;
+        padding-left:0px;
+    }
+
+    #leftSidebarOuter h4 {
+        padding-top:0px;
+        margin-top:0px;
+    }
+
+    #searchtop ul {
+        margin-left:0px;
+        padding-left:0px;
+    }
+
+    .SM_result_controls div, ul {
+        display:inline-block;
+    }
+
+    .search a, #SM_result_controls li a {
+        color:white;
+    }
+    .search a,  {
+        color:white;
+    }
+    #SM_result_controls .disabled {
+        color:#EEE;
+    }
+    #searchTop .inner {
+        display: table;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #searchTop #q {
+        width: 100%;
+        font-size:1.3em;
+        vertical-align:middle;
+    }
+    #searchTop #searchBtn {
+        position:relative;
+        top:2px;
+    }
+
+    .OptionsBox {
+        border: 1px solid #CCC;
+        padding-right:10px;
+        padding-left:10px;
+        width:100%;
+        margin:0px;
+        display:inline-block;
+        vertical-align:top;
+        text-align:left;
+        margin-bottom:10px;
+        background-color: #F5F5F5;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .OptionsBox input, .OptionsBox select {
+        width:100%;
+        margin:8px 0px 8px 0px;
+        position:relative;
+        top:-2px;
+    }
+
+    .OptionsBox span {
+        display: block;
+        overflow: hidden;
+        min-width: 5em;
+    }
+
+    .OptionsBoxTitle {
+        font-weight:bold;
+        border-bottom:1px #DDD solid;
+        padding-bottom:5px;
+        text-align:center;
+        margin-bottom:10px;
+    }
+
+    .OtherOptionsJ input[type=checkbox] {
+        width:1.3em;
+        height:2em;
+    }
+
+    .OtherOptionsJ #selectGallery span {
+        overflow: visible;
+    }
+
+    .OtherOptionsJ .inputunit label, .OtherOptionsJ .inputunit select, .OtherOptionsJ .inputunit input, .OtherOptionsJ .inputunit span, .OtherOptionsJ .inputunit div {
+        display:inline-block;
+        width:auto;
+        vertical-align:top;
+        padding-bottom:0px;
+        margin-bottom:0px;
+    }
+
+    .OtherOptionsJ input {
+        position:relative;
+        top:-6px;
+    }
+
+    .OtherOptionsJ .inputunit {
+        width:auto;
+        float:left;
+        margin-right: 1em;
+    }
+/***************    END NAVIGATION STYLES   ***************/
+
+/***************    BEGIN DASHBOARD STYLES  ***************/
+    @-moz-document url-prefix() {
+        /* sigh.. */
+        .tile {
+            padding-bottom: 0 !important;
+        }
+    }
+
+    #tileCont {
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .tile {
+        border: 1px solid #524d58;
+        background-color: #9E98A5;
+        padding-top: 5px;
+        padding-bottom: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 5px 5px;
+        position: relative;
+        -moz-box-shadow: 10px 10px 5px #888;
+        -webkit-box-shadow: 10px 10px 5px #888;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        box-shadow: 4px 4px 4px #888;
+        display: inline-block;
+    }
+
+    .tileImgCont {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        background-color: #9E98A5;
+        border: 1px solid #524d58;
+        position: relative;
+    }
+
+    .tile a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .tileTitle {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(158, 152, 165, 0.8);
+        padding: 5px 0;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .tileTitle span {
+        padding: 0 5px;
+    }
+
+    .tileInfo {
+        color: white;
+        background-color: rgba(68, 68, 68, 0.7);
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-size: 1.1em;
+        z-index: 2;
+    }
+
+    .tileItem {
+        padding-top: 10px;
+        display: inline-block;
+        text-align: center;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        float: left;
+    }
+    
+    .tileItem img {display:block;}
+
+    .lastTileItem {
+        padding-right: 0px !important;
+    }
+
+    .dateTile {
+        width: auto;
+        height: auto;
+    }
+
+    .freundTile {
+        width: auto;
+        height: auto;
+    }
+
+    .freundTile .tileItem {
+        height: 165px;
+    }
+
+    .freundTile img {
+        width: 305px;
+    }
+
+    .randomTile {
+        width: auto;
+        height: 354px;
+    }
+
+    .randomTile .tileImgCont {
+        width: 305px;
+        height: 332px;
+    }
+
+    .randomTile.wide {
+        width: auto;
+        height: 172px;
+    }
+
+    .randomTile.wide .tileImgCont {
+        width: 305px;
+        height: 150px;
+    }
+
+    .randomTile.tall {
+        width: auto;
+        height: auto;
+    }
+
+    .randomTile.tall .tileImgCont {
+        width: 150px;
+        height: 332px;
+    }
+
+    .popularityTile {
+        width: auto;
+        height: auto;
+    }
+
+    .materialTile {
+        width: auto;
+        height: auto;
+    }
+
+    .creditLineTile {
+        width: auto;
+        height: auto;
+    }
+
+    .cultureTile {
+        width: auto;
+        height: auto;
+    }
+
+    .localityTile {
+        width: auto;
+        height: auto;
+    }
+
+    .cityTile {
+        width: auto;
+        height: auto;
+    }
+
+    .regionTile {
+        width: auto;
+        height: auto;
+    }
+
+    .countryTile {
+        width: auto;
+        height: auto;
+    }
+
+    .continentTile {
+        width: auto;
+        height: auto;
+    }
+
+    .subclassTile {
+        width: auto;
+        height: auto;
+    }
+
+    .classTile {
+        width: auto;
+        height: auto;
+    }
+
+    .catTile {
+        width: auto;
+        height: auto;
+    }
+
+    .yearTile {
+        width: auto;
+        height: auto;
+    }
+/***************    END DASHBOARD STYLES  ***************/
+
+/***************    BEGIN GENERAL STYLES    ***************/
+    /* If javascript is available, hide these elements */
+    .js #advancedSearch, .js #examples, .js #retTop {
+        display: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .indented {
+        margin-left: 2em;
+    }
+
+    .noborder img {
+        border: none;
+    }
+
+    .asTableCell {
+        display: table-cell;
+        width: 35%;
+    }
+
+    .asFillCell {
+        display: table-cell;
+        width: 15%
+    }
+
+    .table {
+        display: table;
+    }
+
+    .tableHeader {
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+    input, select, textarea {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    button, .button {
+        font-family:Verdana, Arial, Helvetica, sans-serif;;
+    }
+
+    .rotate {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Safari and Chrome */
+        -o-transform: rotate(180deg); /* Opera */
+        -moz-transform: rotate(180deg); /* Firefox */
+        position:relative;
+        top:-1px;
+    }
+
+    .button-group .small .button {
+        margin-bottom:0em;
+        padding-bottom:0em;
+    }
+
+    .icon-name-A {
+        position:relative;
+        top:-2px;
+    }
+
+    .icon-name-B {
+        position:relative;
+        left:-.5em;
+        top:2px;
+    }
+
+    .inner span {
+        display: table-cell;
+        width: 100%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    label {
+        float:left;
+        width:9em;
+        text-align:right;
+        margin-right:10px;
+        padding:8px 0px 8px 0px;
+    }
+
+    .button {
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+
+    h4, #examples h3, #leftSidebarOuter h3 {
+        font-size:.8em;
+        margin-bottom:2px;
+        line-height:1.2em;
+    }
+
+    h5 {
+        font-size:.7em;
+        margin-bottom: 2px;
+        line-height:1.1em;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+/***************    END GENERAL STYLES    ***************/

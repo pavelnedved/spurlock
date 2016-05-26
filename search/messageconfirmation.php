@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"><!-- InstanceBegin template="/Templates/SM-Main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Collections, Spurlock Museum, University of Illinois at Urbana-Champaign</title>
+<!-- InstanceEndEditable -->
+<link href="http://www.spurlock.illinois.edu/support/CSS/twoColElsRtHdr.css" rel="stylesheet" type="text/css">
+<link href="http://www.spurlock.illinois.edu/support/CSS/Design.css" rel="stylesheet" type="text/css" media="screen">
+<link href="http://www.spurlock.illinois.edu/support/CSS/Print.css" rel="stylesheet" type="text/css" media="print">
+<link href="http://www.spurlock.illinois.edu/support/CSS/IE.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="icon" href="http://www.spurlock.illinois.edu/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://www.spurlock.illinois.edu/favicon.ico" type="image/x-icon">
+<!-- SmartMenus 6 config and script core files -->
+<link href="http://www.spurlock.illinois.edu/support/CSS/SMenuCORE.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.spurlock.illinois.edu/support/c_config.js"></script>
+<script type="text/javascript" src="http://www.spurlock.illinois.edu/support/c_smartmenus.js"></script>
+<script type="text/javascript" src="http://www.spurlock.illinois.edu/support/jquery.js"></script>
+<script type="text/javascript" src="http://www.spurlock.illinois.edu/support/headRotating.js"></script>
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColElsRtHdr #sidebar1 { padding-top: 30px; }
+.twoColElsRtHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<!-- the below script allows for PNG transparency in PC IE, prior to IE7 -->
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="http://www.spurlock.illinois.edu/support/pngfix.js"></script>
+<![endif]-->
+<script type="text/JavaScript">
+	$('html').addClass('randArtRotating');
+	$(document).ready(function() {
+		$('html').removeClass('randArtRotating');
+		$("#SMrotating").html('');
+		$("#SMrotating").rotatingElement({
+			'enableRotation' : true,
+			'imageFolder' : '/elements/random/',
+			'refreshInterval' : 15000,
+			'animationLength' : 2000,
+			'preload' : true,
+			'fadeInAnimation' : {opacity: 1.0},
+			'fadeOutAnimation' : {opacity: 0.0}
+		});
+	});
+</script>
+<!--[if lte IE 7]>
+<style type="text/css">
+	.twoColElsRtHdr #container #SMheaderbase #SMheadertitle{
+    	padding-left: 10px !important;
+     }
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<script type="text/JavaScript">
+	$(document).ready(function() {
+		checkSize();
+		$(window).resize(function() {
+			checkSize();
+		});
+	});
+	function checkSize(){
+		width = $(window).width();
+		if(width < 970){
+			$("#SMrotating").addClass("disable_rotate");
+		}else{
+			$("#SMrotating").removeClass("disable_rotate");	
+		}
+	}
+</script>
+<![endif]-->
+<!-- InstanceBeginEditable name="localstyles" -->
+<link href="CSS/foundationPBBFG.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+
+
+ -->
+</style>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<!-- Do not edit this parameter directly.   -->
+<!-- InstanceParam name="containerstyle" type="text" value="background-color:#FFFFFF" --><!-- InstanceParam name="collectionsCurrent" type="text" value="" --><!-- InstanceParam name="artmonCurrent" type="text" value="" --><!-- InstanceParam name="newacqCurrent" type="text" value="" --><!-- InstanceParam name="collhighCurrent" type="text" value="" --><!-- InstanceParam name="searchCurrent" type="text" value="" --><!-- InstanceParam name="exhibitsCurrent" type="text" value="" --><!-- InstanceParam name="exhibinfoCurrent" type="text" value="" --><!-- InstanceParam name="featurehighCurrent" type="text" value="" --><!-- InstanceParam name="vtourCurrent" type="text" value="" --><!-- InstanceParam name="prevexhibitsCurrent" type="text" value="" --><!-- InstanceParam name="educationCurrent" type="text" value="" --><!-- InstanceParam name="calenderCurrent" type="text" value="" --><!-- InstanceParam name="inhouseCurrent" type="text" value="" --><!-- InstanceParam name="outreachCurrent" type="text" value="" --><!-- InstanceParam name="reservingCurrent" type="text" value="" --><!-- InstanceParam name="informationCurrent" type="text" value="" --><!-- InstanceParam name="newsCurrent" type="text" value="" --><!-- InstanceParam name="explorationsCurrent" type="text" value="" --><!-- InstanceParam name="policiesCurrent" type="text" value="" --><!-- InstanceParam name="historyCurrent" type="text" value="" --><!-- InstanceParam name="employCurrent" type="text" value="" --><!-- InstanceParam name="onresWhyCurrent" type="text" value="" --><!-- InstanceParam name="onresPngCurrent" type="text" value="" --><!-- InstanceParam name="onresCurrent" type="text" value="" --><!-- InstanceParam name="TPCurrent" type="text" value="NOLINK" --><!-- InstanceParam name="exhistoryCurrent" type="text" value="" --><!-- InstanceParam name="exmovingCurrent" type="text" value="" --><!-- InstanceParam name="randArt_EnableRotation" type="text" value="true" --><!-- InstanceParam name="randArt_ImageFolder" type="text" value="/elements/random/" -->
+</head>
+
+<body class="twoColElsRtHdr">
+
+<div id="container" style="background-color:#FFFFFF">
+  <div id="SMheaderbase">
+  	<div id="SMheaderimark">
+    	<a href="http://illinois.edu"><img src="http://www.spurlock.illinois.edu/support/elements/header/images/imark.gif" alt="I mark logo" width="38" height="50" class="noborder" ></a>
+   	</div>
+    <div id="SMrotating">
+    	<a href="http://spurlock.illinois.edu/search/details.php?a=1900.18.0001"><img src="http://spurlock.illinois.edu/elements/random/1900.18.0001.jpg" alt="random artifact" width="320" height="109"></a>
+    </div>
+  	<div id="SMheadertitle">
+  		<a href="http://spurlock.illinois.edu/"><img src="http://www.spurlock.illinois.edu/support/elements/header/images/smtitle.png" alt="The William R. and Clarice V. Spurlock Museum at University of Illinois at Urbana-Champaign" width="441" height="74"></a>
+    </div>
+  </div>
+
+<div id="header">
+    
+    <div id="navigation" class="clearFix">
+      <div class="hide"><a href="#PostNav">Skip to Content</a></div>
+      <h2 class="hide">Navigation</h2>
+      <ul id="Menu1" class="MM">
+        <li><a href="http://www.spurlock.illinois.edu/index.html">HOME</a></li>
+      <li><a class="" href="http://www.spurlock.illinois.edu/info/index.html">INFORMATION</a>
+        <ul>
+            <li><a href="http://www.spurlock.illinois.edu/info/index.html">General Information</a></li>
+            <li><a href="http://www.spurlock.illinois.edu/info/people.html">People</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/info/employment.html">Employment &amp; Volunteer Opportunities</a></li>
+            <li><a href="http://www.spurlock.illinois.edu/info/facilities.html">Facilities</a></li>
+            <li><a href="http://www.spurlock.illinois.edu/info/giving.html">Giving</a></li>
+          </ul>
+        </li>
+      <li><a class="" href="http://www.spurlock.illinois.edu/news/index.html">NEWS</a>
+        <ul>
+            <li><a href="http://www.spurlock.illinois.edu/news/index.html">Current Story</a></li>
+            <li><a href="http://www.spurlock.illinois.edu/news/archive.html">News Archive</a></li>
+            <li><a href="http://www.spurlock.illinois.edu/news/publications.html">Publications</a></li>
+          </ul>
+        </li>
+      <li><a class="" href="http://www.spurlock.illinois.edu/explorations/index.html">EXPLORATIONS</a>
+      <ul>
+            <li><a class="" href="http://www.spurlock.illinois.edu/explorations/online/index.html">Online Resources</a>
+              <ul>
+                <li><a href="http://www.spurlock.illinois.edu/explorations/online/MandarinSquares/index.html">Chinese Mandarin Squares</a></li>
+                <li><a href="http://www.spurlock.illinois.edu/explorations/online/mummification/index.html">Egyptian Mummification</a></li>
+                <li><a href="http://www.spurlock.illinois.edu/explorations/online/bali/index.html">Journeying Through Balinese Lives</a></li>
+                  <li><a href="http://www.spurlock.illinois.edu/explorations/online/senufomusic/index.html">Musical Expressions of the Senufo-Tagba</a></li>
+                  <li><a href="http://www.spurlock.illinois.edu/explorations/online/senufo/index.html">Senufo Tagba of West Africa</a></li>
+                  <li><a class="" href="http://www.spurlock.illinois.edu/explorations/online/papua/index.html">The Transforming Arts of Papua New Guinea</a></li>
+                <li><a class="" href="http://www.spurlock.illinois.edu/explorations/online/whyknot/index.html">Why Knot?</a></li>
+              </ul>
+            </li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/explorations/history/index.html">Spurlock History</a>
+                <ul>
+                	<li><a class="" href="http://www.spurlock.illinois.edu/explorations/history/history/index.html">History of the Museum</a></li>
+                	<li><a class="" href="http://www.spurlock.illinois.edu/explorations/history/moving/index.html">Moving the Museum</a></li>
+                </ul>  
+            </li>
+            <li><a href="http://www.spurlock.illinois.edu/explorations/research/index.html">Research</a></li>
+          </ul>
+        </li>
+    <li><a class="" href="http://www.spurlock.illinois.edu/collections/index.html">COLLECTIONS</a>
+      <ul>
+            <li><a class="" href="http://www.spurlock.illinois.edu/collections/artifact/index.html">Featured Artifact</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/collections/new/index.html">New Acquisitions</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/collections/browse/index.html">Collection Highlights</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/search/index.php">Search Collections</a></li>
+          </ul>
+        </li>
+    <li><a class="" href="http://www.spurlock.illinois.edu/exhibits/index.html">EXHIBITS</a>
+        <ul>
+            <li><a class="" href="http://www.spurlock.illinois.edu/exhibits/index.html">General Exhibits Information</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/exhibits/highlights/index.html">Feature Gallery Highlights      </a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/exhibits/vtour/index.html">Virtual Tour of the Feature Galleries</a></li>
+            <li><a class="" href="http://www.spurlock.illinois.edu/exhibits/previous.html">Previous Exhibits</a></li>
+          </ul>
+        </li>
+      <li><a class="" href="http://www.spurlock.illinois.edu/education/index.php">PROGRAMS &amp; EVENTS </a>
+      <ul>
+            <li><a class="" href="http://www.spurlock.illinois.edu/education/calendar/index.php">Calendar of Events</a></li>
+            <li><a href="#" class="NOLINK">Tours and Programs Information
+                </a>
+              <ul>
+                <li><a class="" href="http://www.spurlock.illinois.edu/education/in-house/index.html">In-house Tours &amp; Programs</a></li>
+                  <li><a class="" href="http://www.spurlock.illinois.edu/education/outreach/index.html">Outreach Programs</a></li>
+                  <li><a class="" href="http://www.spurlock.illinois.edu/education/reserving/index.html">Reserving Programs &amp; Tours</a></li>
+              </ul>
+            </li>
+            <li><a href="http://www.spurlock.illinois.edu/education/res_center/index.html">Educational Resource Center</a></li>
+              <li><a href="http://www.spurlock.illinois.edu/education/facilities_rental.html">Facilities Rental</a></li>
+              <li><a href="http://www.spurlock.illinois.edu/education/inviteus.html">Invite Us to Your Next Meeting</a></li>
+          </ul>
+        </li>
+        <li><a class="" href="http://www.spurlock.illinois.edu/policy/index.html">POLICIES</a></li>
+      </ul>
+        
+    </div>
+
+<!-- Please leave at least one new line or white space symbol after the closing </ul>
+     tag of the root ul element of the menu tree. This will allow the browsers to init
+     the menu tree as soon as it is loaded and not wait for the page load event. -->
+
+   
+  <!-- end #header --></div>
+
+  
+  
+  <a name="PostNav"></a>
+    <!-- InstanceBeginEditable name="MainContent" -->
+	<div id="crumbs">
+ 	 	<span><a href="http://www.spurlock.illinois.edu/index.html">Home</a></span>&nbsp;&gt;
+
+       		<!-- Page Crumb Trail START -->
+<h1><a href="../collections/index.html">Collections</a></h1>&nbsp;&gt;
+	 	 	<h2><a href="index.php">Search Collections</a></h2>&nbsp;&gt;
+      		<h3>Artifact Record Details</h3>
+			<!-- Page Crumb Trail END -->
+    </div>
+
+
+    <div id="mainContent">
+
+	<!-- Actual Content START -->
+	<br>
+	
+	<br>
+    <div class="row">
+    	<div class="panel secondary large-9 small-9 small-centered columns large-centered">
+    		<div class="row">
+    			<div class="small-10 columns">
+    			Thanks for sharing!<br><br>
+    			Check the email address you provided for a copy of your submission. 	
+    			</div>
+    			<div class="small-2 columns">
+    				<?php 
+					$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+  					echo "<a class='small success button' href='$url'>Go Back</a>"; 
+					?>
+    			</div>    			
+    		</div>
+    	  
+    	
+    	</div>
+    </div>
+
+
+   
+
+   
+	<!-- Actual Content END -->
+    
+  <!-- end #mainContent -->
+  </div>
+  
+  <!-- InstanceEndEditable -->
+  
+  
+  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat">
+
+	<br class="clearfloat">
+
+  <div id="footer">
+
+    <div class="fltrt">
+
+
+<!-- AddThis Follow BEGIN -->
+<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
+<a class="addthis_button_facebook_follow" addthis:userid="SpurlockMuseum"></a>
+<a class="addthis_button_twitter_follow" addthis:userid="spurlockmuseum"></a>
+</div>
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-50c7a06f3c2d8de3"></script>-->
+<!-- AddThis Follow END -->
+
+<p><a href="http://www.spurlock.illinois.edu/info/people.html">Contact Us</a></p>
+
+    </div>
+    	
+        
+        <div style="padding-top:10px; padding-bottom:8px">
+        <a href="http://www.spurlock.illinois.edu/index.html">Spurlock Museum</a> | 600 S. Gregory St. | Urbana, Illinois 61801 | (217) 333-2360<br>
+
+        &copy; 
+<script type="text/javascript">
+document.write("2001-"+(new Date).getFullYear());
+</script>
+ University of Illinois Board of Trustees | <a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a></div>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+
+</body>
+<!-- InstanceEnd --></html>

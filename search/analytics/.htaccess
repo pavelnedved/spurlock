@@ -1,0 +1,21 @@
+order deny,allow
+deny from all
+allow from 127.0.0.1
+allow from localhost
+allow from 128.174.89.176
+allow from 128.174.89.177
+allow from 128.174.89.178
+allow from 128.174.89.179
+allow from 128.174.89.180
+allow from 128.174.89.181
+allow from 128.174.89.182
+allow from 128.174.89.183
+
+IndexIgnore *
+
+DirectoryIndex analyticsIndex.php
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

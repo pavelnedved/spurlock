@@ -1,0 +1,98 @@
+/*
+        Styles for analytics pages
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 175px;
+    top: 0;
+    left: 0;
+    float: left;
+    display: block;
+    margin: 0 10px;
+    padding: 0;
+    border-right: 1px solid black;
+}
+
+#sidebar a {
+    display: block;
+    padding: 10px 5px;
+}
+
+#content {
+    margin-left: 185px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+/* Sortable tables */
+table.sortable th {
+    background-color: #eee;
+    color: #666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+.cur_year {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cur_month {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cur_day {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#day_chart {
+    width: 500px;
+}
+
+#month_chart {
+    width: 700px;
+}
+
+#year_chart {
+    width: 850px;
+}
+
+#years_bymonth_chart {
+    width: 700px;
+}
+
+#years_byyear_chart {
+    width: 700px;
+}
+
+#year_nav, #month_nav, #day_nav {
+    text-align: center;
+}
+
+#statContent {
+    padding-top: 20px;
+}
+
+

@@ -1,0 +1,605 @@
+/* If javascript is available, hide these elements */
+.js #advancedSearch, .js #examples, .js #retTop {
+    display: none;
+}
+
+@-moz-document url-prefix() {
+	/* sigh.. */
+    .tile {
+    	padding-bottom: 0 !important;
+    }
+}
+
+#tileCont {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.tile {
+    border: 1px solid black;
+    background-color: #9E98A5;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px 5px;
+    position: relative;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+    display: inline-block;
+}
+
+.tileImgCont {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #9E98A5;
+    border: 1px solid black;
+    position: relative;
+}
+
+.tile a {
+    text-decoration: none;
+    color: black;
+}
+
+.tileTitle {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(68, 68, 68, 0.7);
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.tileTitle span {
+    padding: 0 5px;
+}
+
+.tileInfo {
+    color: white;
+    background-color: rgba(68, 68, 68, 0.7);
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 1.1em;
+    z-index: 2;
+}
+
+.tileItem {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.lastTileItem {
+    padding-right: 0px !important;
+}
+
+.dateTile {
+    width: auto;
+    height: auto;
+}
+
+.freundTile {
+    width: auto;
+    height: auto;
+}
+
+.freundTile .tileItem {
+    height: 165px;
+}
+
+.freundTile img {
+    width: 305px;
+}
+
+.randomTile {
+    width: auto;
+    height: 354px;
+}
+
+.randomTile .tileImgCont {
+    width: 305px;
+    height: 332px;
+}
+
+.randomTile.wide {
+    width: auto;
+    height: 172px;
+}
+
+.randomTile.wide .tileImgCont {
+    width: 305px;
+    height: 150px;
+}
+
+.randomTile.tall {
+    width: auto;
+    height: auto;
+}
+
+.randomTile.tall .tileImgCont {
+    width: 150px;
+    height: 332px;
+}
+
+.popularityTile {
+    width: auto;
+    height: auto;
+}
+
+.materialTile {
+    width: auto;
+    height: auto;
+}
+
+.creditLineTile {
+    width: auto;
+    height: auto;
+}
+
+.cultureTile {
+    width: auto;
+    height: auto;
+}
+
+.localityTile {
+    width: auto;
+    height: auto;
+}
+
+.cityTile {
+    width: auto;
+    height: auto;
+}
+
+.regionTile {
+    width: auto;
+    height: auto;
+}
+
+.countryTile {
+    width: auto;
+    height: auto;
+}
+
+.continentTile {
+    width: auto;
+    height: auto;
+}
+
+.subclassTile {
+    width: auto;
+    height: auto;
+}
+
+.classTile {
+    width: auto;
+    height: auto;
+}
+
+.catTile {
+    width: auto;
+    height: auto;
+}
+
+.yearTile {
+    width: auto;
+    height: auto;
+}
+
+#bottomPagination {
+    text-align: center;
+}
+
+#clearSearch {
+    font-size: 0.9em;
+}
+
+#searchTimer {
+    font-size: .8em;
+}
+
+#retTop.normal {
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+    text-align: center;
+}
+
+#retTop.sticky {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-color: #EEE;
+    padding: 5px;
+    z-index: 100;
+    margin-left: -10px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    opacity: 0.8;
+}
+
+.curFacet {
+    font-style: italic;
+}
+
+#nomenFacet ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+#originFacet ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+#toggleAdv {
+    text-decoration: none;
+}
+
+.more, .less {
+    font-size: .9em;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0033CC;
+}
+
+.hiddenFacet {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.artWrapper:hover {
+    border: 1px dotted black;
+}
+
+.artWrapper {
+    padding: 5px 7px 7px 5px;
+    margin: 1px;
+    border: 1px solid black;
+    background-color: #9E98A5;
+    width: 137px;
+    height: 137px;
+    float: left;
+}
+
+.artCont {
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    background-color: #9E98A5;
+    border: 1px solid black;
+    position: relative;
+}
+
+.artImage {
+    position: relative;
+}
+
+#gridCont {
+    margin-left: 275px;
+}
+
+#pageSelect {
+    padding-top: 0.75em;
+    padding-bottom: 0.6125em;
+}
+
+#sortSelect {
+    float: right;
+    padding-left: 35px;
+}
+
+#sortSelect span {
+    position: relative;
+    bottom: 6px;
+}
+
+#viewSelect {
+    float: right;
+    padding-left: 35px;
+}
+
+#viewSelect span {
+    position: relative;
+    bottom: 6px;
+}
+
+.retractTerm {
+    font-size: .7em;
+    vertical-align: super;
+}
+
+#searchHelp {
+    padding-left: 10px;
+}
+
+#examples {
+    clear: both;
+    width: 75%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.facetNumber {
+    font-size: .8em;
+}
+
+.artifactbadges {
+    text-align: right;
+    float: right;
+}
+
+#leftSidebarOuter {
+    padding: 10px;
+    margin: 10px;
+    margin-left: -10px;
+    width: 250px;
+    position: relative;
+    float: left;
+}
+
+#leftSidebar {
+    border: 1px solid #666;
+    padding: 5px;
+}
+
+#leftSidebar li { }
+
+#searchTop {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#searchTop li { }
+
+#searchBottom {
+    text-align: center;
+}
+
+#searchBottom li { }
+
+.searchOptions {
+    margin: 0;
+    padding: 0;
+}
+
+.indented {
+    margin-left: 2em;
+}
+
+#examplesHead {
+    background: #CCCCCC;
+}
+
+.searchOptions li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+.searchOptions ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+#pagination {
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
+    border-top: medium;
+    border-color: #666666;
+    border-top-style: solid;
+    padding: 1em;
+    width: 95%;
+    font-size: .8em;
+
+}
+
+#examples {
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+.records {
+    border-top: medium;
+    border-color: #666666;
+    border-top-style: solid;
+    padding: 1em;
+    min-height: 140px;
+}
+
+.records img {
+    border: thin solid #000000;
+
+}
+
+.noborder img {
+    border: none;
+}
+
+.artifactinfo { }
+
+#paginationtop {
+    text-align: center;
+    width: 100%;
+    width: 95%;
+    font-size: .8em;
+
+}
+
+#selectGallery {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#selectGalleryb {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#advancedSearch {
+    margin: 0;
+    padding: 0;
+}
+
+#advancedSearchb {
+    margin: 0;
+    padding: 0;
+}
+
+.advancedSearchTable {
+    display: table;
+    width: 100%;
+}
+
+.advancedSearchTable select {
+    width: 100%;
+}
+
+.asTableCell {
+    display: table-cell;
+    width: 35%;
+}
+
+.asFillCell {
+    display: table-cell;
+    width: 15%
+}
+
+.advancedSearchTable label {
+    display: table-row;
+    width: 100%
+}
+
+.advancedSearchTable span {
+    display: table-cell;
+    text-align: left;
+    width: 35%;
+
+}
+
+.advancedSearchTable input {
+    display: table-cell;
+    text-align: left;
+    width: 100%;
+}
+
+.recordsDisplay {
+    text-align: right;
+    font-size: .8em;
+}
+
+.cat {
+    border: 1px black solid;
+    background-color: #EEE;
+}
+
+.table {
+    display: table;
+}
+
+.advOptions {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    width: 750px;
+}
+
+.advOptLeft {
+    position: relative;
+    float: left;
+    width: 45%;
+    overflow: visible;
+}
+
+.advOptions span {
+    width: 40%;
+    text-align: left;
+}
+
+.advOptions input, .advOptions select {
+    text-align: left;
+    width: 100%;
+}
+
+.advOptions label {
+    width: 100%;
+    text-align: right;
+    position: relative;
+    float: left;
+    line-height: 1.0em;
+}
+
+.advOptRight {
+    position: relative;
+    float: right;
+    width: 45%;
+    overflow: visible;
+    padding-right: 10px;
+    left: -10px;
+}
+
+.tableHeader {
+    text-align: center;
+    font-size: 1.0em;
+}
+
+#location {
+    border: 1px solid #eee;
+    margin: 5px;
+    width: 100%;
+}
+
+#other {
+    border: 1px solid #eee;
+    margin: 5px;
+    width: 100%;
+}
+
+#nomenclature {
+    border: 1px solid #eee;
+    margin: 5px;
+    width: 100%;
+}
+
+#basicinfo {
+    border: 1px solid #eee;
+    margin: 5px;
+    width: 100%;
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#pageEnumeration, h3 {
+    clear: both;
+}
