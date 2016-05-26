@@ -12,7 +12,7 @@ $vTourQuery = new FX($serverIP, $webCompanionPort, $dataSourceType);
 $vTourQuery->SetDBData("Virtual Tour_web", "Layout #1", 1);
 $vTourQuery->AddDBParam("accession number", $imgacc, "cn");
 $vTourInfo = $vTourQuery->FMFind();
-//echo $vTourInfo['errorCode'];
+//echo $vTourInfo['errorCode']; 
 $vtLink = "/vtour/";
 //print_r ($vTourInfo['data']);
 if ($vTourInfo['foundCount'] > 0) {

@@ -11,7 +11,7 @@ require_once("detailsSidebar.class.php");
  * function to the class.
  *
  * @package CollectionsSearch
- * @author Michael Robinson
+ * @author Michael Robinson 
  */
 class randomSidebarFactory
 {

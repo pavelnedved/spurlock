@@ -5,7 +5,7 @@
 		Date created: Unknown
 		Modifications:
 			[4/26/11] MTR - Cleaned up the code to be more concise, added better error handling in the event of database downtime.
-*/
+*/ 
 
 $rnd = "random{$_GET['rnd']}";
 include_once("../support/php/FX/FX.php");

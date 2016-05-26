@@ -9,7 +9,8 @@ require_once("searchRequest.class.php");
  *
  * @package CollectionsSearch
  * @author Michael Robinson
- */
+ * @author Yang Lu
+ */ 
 class naturalQuery
 {
 

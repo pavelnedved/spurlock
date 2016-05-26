@@ -11,7 +11,7 @@
 <link href="http://www.spurlock.illinois.edu/support/CSS/IE.css" rel="stylesheet" type="text/css" media="screen">
 <link rel="icon" href="http://www.spurlock.illinois.edu/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="http://www.spurlock.illinois.edu/favicon.ico" type="image/x-icon">
-<!-- SmartMenus 6 config and script core files -->
+<!-- SmartMenus 6 config and script core files --> 
 <link href="http://www.spurlock.illinois.edu/support/CSS/SMenuCORE.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="http://www.spurlock.illinois.edu/support/c_config.js"></script>
 <script type="text/javascript" src="http://www.spurlock.illinois.edu/support/c_smartmenus.js"></script>

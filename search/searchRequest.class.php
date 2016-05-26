@@ -11,7 +11,7 @@
 class searchRequest
 {
 
-    /**
+    /** 
      * @var string
      */
     private $query = ""; 

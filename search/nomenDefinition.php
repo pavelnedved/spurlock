@@ -10,7 +10,7 @@
     Include this file into the search to provide access to the nomenclature arrays
 
     $nomen_categories 			- Array of categories
-    $nomen_classifications		- Array of categories => array of classifications that match that category
+    $nomen_classifications	 	- Array of categories => array of classifications that match that category
     $nomen_subclassifications	- Array of classifications => array of subclassifications that match that classification
 */
 

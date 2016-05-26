@@ -10,7 +10,8 @@ require_once("collectionsBackend.class.php");
  *
  * @package CollectionsSearch
  * @subpackage Tracking
- * @author Michael Robinson
+ * @author Michael Robinson 
+ * @author Yang Lu
  */
 class searchTracker
 {

@@ -20,7 +20,7 @@ function constructNomenclatureTitle($nomen)
     if (stripos($nomen, 'T&amp;E') === FALSE) {
         return $nomen;
     }
-    return $nomen . ' objects';
+    return $nomen . ' objects'; 
 }
 
 /**
