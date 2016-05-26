@@ -8,7 +8,7 @@ require_once("searchRequest.class.php");
  * Holds data belonging to a single artifact.
  *
  * @package CollectionsSearch
- * @author Michael Robinson
+ * @author Yang Lu
  */
 class artifact
 {

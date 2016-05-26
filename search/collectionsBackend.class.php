@@ -16,7 +16,7 @@ date_default_timezone_set('America/Chicago');
  * and displaying search related elements.
  *
  * @package CollectionsSearch
- * @author Michael Robinson
+ * @author Yang Lu
  */
 class collectionsBackend
 {

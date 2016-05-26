@@ -14,6 +14,7 @@ require_once("customDashboardTile.class.php");
  *
  * @package CollectionsSearch
  * @author Michael Robinson
+ * @author Yang Lu
  */
 class dashboardTileFactory
 {

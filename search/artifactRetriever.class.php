@@ -47,6 +47,7 @@ require_once('FileMaker.php');
  * @package CollectionsSearch
  * @subpackage Import
  * @author Michael Robinson
+ * @author Yang Lu
  */
 class artifactRetriever
 {

@@ -7,6 +7,7 @@
  *
  * @package CollectionsSearch
  * @author Michael Robinson
+ * @author Yang Lu
  */
 class dashboardTile
 {
