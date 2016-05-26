@@ -9,7 +9,7 @@ require_once("facetHandler.class.php");
 
 date_default_timezone_set('America/Chicago');
 
-/**
+/** 
  * Class collectionsBackend
  *
  * Our messiah. This class interfaces with almost every other class to provide an abstract interface for searching
